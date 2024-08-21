@@ -13,6 +13,9 @@ namespace FirstApplication.ConsoleApp
             string age = Console.ReadLine();
             Greet(name, age);
             Console.WriteLine("Рад был познакомиться!");
+
+            Console.WriteLine("Как Вас зовут?");
+            Console.WriteLine("Как Вас зовут?");
         }
 
         static void Greet(string name, string age)
